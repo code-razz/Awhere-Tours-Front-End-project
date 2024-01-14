@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Signin page</title>
+        <link rel="stylesheet" href="siginstyle.css">
+
+    </head>
+    <body>
+        <div id="signin" >
+            <h1 >Sign up</h1>
+            
+            <form id="signup">
+                <label for="name">Name<br></label>
+                <input type="text" id="name" name="name">
+                <br><br>
+                <label for="email">Email<br></label>
+                <input type="email" id="email" name="email">
+                <br><br>
+                <label for="username">Username<br></label>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+                <label for="password">Password<br></label>
+                <input type="password" id="password" name="password">
+                <br><br>
+                <label for="cpassword"> Confirm Password<br></label>
+                <input type="password" id="cpassword" name="cpassword">
+                <br><br>
+                <button type="submit">Submit</button>
+                <br><br>
+                
+            </form>
+            <p id="errorMessage" style="color: red;"></p>
+            
+        </div>
+        <script>
+            
+            const signup = document.getElementById("signup");
+        const errorMessage = document.getElementById("errorMessage");
+
+        signup.addEventListener("submit", function(event) {
+            const password = document.getElementById("password");
+            const confirmpassword = document.getElementById("cpassword");
+
+            if (password!==confirmpassword) {
+                event.preventDefault(); // Prevent form submission
+                errorMessage.textContent = "Password desnot matched.";
+            }
+        });
+    </script>
+
+
+        </script>
+    </body>
+</html>

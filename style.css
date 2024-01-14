@@ -1,0 +1,143 @@
+*{
+    /*padding:0%;*/
+    margin:0%;
+}
+nav{
+    background-color:peachpuff;
+    height:70px;
+    
+}
+.logo{
+    text-align:center;
+    background-color:grey;
+    color:white;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    width:120px;
+    height:120px;
+    margin-left:10%;
+    margin-top:0px;
+    position:relative;
+    z-index:1;
+}
+.navi{
+    width: 100%;
+    height:80%;
+    text-align:right;
+    float:right;
+    margin-top:-60px;
+    background-color:burlywood;
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+    size:relative;
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    
+}
+nav ul li{
+    margin:20px;
+}
+nav ul li a{
+    font-size:20px;
+    color:#783937;
+    text-decoration: none;
+}
+main{
+    /*background-color: rgba(235, 227, 241, 0.534);*/
+    background-image: url(img/pattern2.jpg);
+    background-repeat: repeat;
+    background-size: 50%;
+}
+img.f{
+    margin-top:-15px;
+    width:100%;
+}
+
+h1.f{
+    font-family: algerian;
+    color: white;
+    z-index: 1;
+    margin-left: 40%;
+}
+h3.f{
+    margin-left: 40%;
+    margin-top: -20%;
+    color: rgb(220, 188, 242);
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:10%
+}
+
+.places {
+    background-image: url(img/gradient.jpeg);
+    flex: 0 0 calc(30% - 20px); /* Set the width for each destination block */
+    border-radius: 20px;
+    background-color: beige;
+    border: 0.5px solid burlywood;
+    margin-bottom: 10%;
+    text-align: center; /* Center the content horizontally */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+.places h3,.places p{
+    padding:2%;
+    text-align: justify;
+
+}
+.places img{
+    border-radius: 20px;
+    width: 30vw;
+    height: 20vw;
+}
+.places button{
+    margin: 3%;
+    font-size:15px;
+    color:white;
+    background-color: blueviolet;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+}
+footer{
+    color:white;
+    margin-top:-15%;
+    padding-top:5%;
+    background-color: #1F2937;
+}
+.footl{
+    margin: -3% 0px 0px 10%;
+    padding-bottom: 1%;
+}
+.footl img{
+    width: 100px;
+}
+.footr{
+    
+    float: right;
+    margin-top:-9%;
+    margin-right: 6%;
+
+    
+}
+.footr i{
+    margin-right:15%;
+}
+.footr button{
+    margin: 3%;
+    font-size:15px;
+    color:white;
+    background-color: blueviolet;
+    border-radius: 15px;
+    width: 120px;
+    height: 50px;
+}
+.copy{
+    background-color:#111827;
+    text-align: center;
+    padding: 1%;
+}
