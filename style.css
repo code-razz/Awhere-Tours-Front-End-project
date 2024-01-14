@@ -47,7 +47,7 @@ nav ul li a{
 }
 main{
     /*background-color: rgba(235, 227, 241, 0.534);*/
-    background-image: url(img/pattern2.jpg);
+    background-image: url(pattern2.jpg);
     background-repeat: repeat;
     background-size: 50%;
 }
